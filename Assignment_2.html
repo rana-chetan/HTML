@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: peachpuff;
+            border: 3px solid red;
+        }
+
+        th {
+            background-color: lightsalmon;
+            color: teal;
+            text-align: left;
+            padding: 8px;
+            border: 1px solid red;
+        }
+
+        td {
+            text-align: left;
+            padding: 8px;
+            border: 1px solid red;
+        }
+    </style>
+
+    <title>Assignment 2 - Table</title>
+
+</head>
+
+<body>
+
+    <h2>Assignment 2 - Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>Pencils</td>
+            <td>2</td>
+            <td>$1</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td>Erasers</td>
+            <td>4</td>
+            <td rowspan="2">$0.50</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Subtotal</td>
+            <td>$4</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>10%</td>
+            <td colspan="2">$0.4</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">Footer of the table</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
