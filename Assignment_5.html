@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - HTML Form</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>HTML FORMS</legend>
+        <form action="#" method="post">
+            <div>
+                <label for="firstName">Your First Name here:</label><br>
+                <input type="text" name="FirstName" id="firstName" required>
+            </div><br>
+
+            <div>
+                <label for="lastName">Your Last Name here:</label><br>
+                <input type="text" name="LastName" id="lastName" required>
+            </div><br>
+
+            <div>
+                <label for="age">Age:</label><br>
+                <input type="number" name="age" id="age" required>
+            </div><br>
+
+            <div>
+                <label for="dob">DOB:</label><br>
+                <input type="date" name="dob" id="dob" required>
+            </div><br>
+
+            <div>
+                <label for="email1">Email:</label><br>
+                <input type="email" id="email1" name="email" required>
+            </div><br>
+
+            <div>
+                <label for="password1">Password:</label><br>
+                <input type="password" id="password1" name="password" placeholder="Enter your password" required>
+            </div><br>
+
+            <div>
+                <p>Enter your T-shirt size:</p>
+                <input id="small" name="tshirtsize" type="radio" value="small">
+                <label for="small">Small</label>
+                <input id="medium" name="tshirtsize" type="radio" value="medium">
+                <label for="medium">Medium</label>
+                <input id="large" name="tshirtsize" type="radio" value="large">
+                <label for="large">Large</label>
+            </div><br>
+
+            <div>
+                <label for="car">Select a car of your choice:</label><br>
+                <select id="car" name="car">
+                    <option value="volvo">Volvo</option>
+                    <option value="xuv">XUV</option>
+                </select>
+            </div><br>
+
+            <div>
+                <input type="checkbox" id="checking" name="checking">
+                <label for="checking">Check this option</label>
+            </div><br>
+
+            <div>
+                <button type="button">Click me</button>
+            </div><br>
+
+            <div>
+                <label for="comments">Your Comments:</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="40"
+                    placeholder="Enter your comments here..."></textarea>
+            </div><br>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required><br><br>
+
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+
+                <label for="email2">Email:</label><br>
+                <input type="email" id="email2" name="email2" required>
+            </fieldset><br>
+
+            <div>
+                <label for="number">Your Phone Number:</label><br>
+                <input type="tel" id="number" name="phone" required>
+            </div><br>
+
+            <div>
+                <label for="website">Enter your website URL:</label><br>
+                <input type="url" id="website" name="website" placeholder="https://example.com" required>
+            </div><br>
+
+            <div>
+                <label for="quantity">Quantity (between 1 and 5):</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </div><br>
+
+            <div>
+                <input type="submit" value="Submit Form">
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>
