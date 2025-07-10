@@ -1,0 +1,75 @@
+div .btn {
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: rgb(213, 73, 23);
+    height: 30px;
+    width: 200px;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#one, #three, #six, #eight {
+    height: 300px;
+    width: 1600px;
+    border: 1px solid rgb(213, 73, 23);
+    margin-bottom: 10px;
+}
+
+.p1 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#two {
+    height: 200px;
+    width: 800px;
+    border: solid 1px;
+    border-color: black;
+    position: relative;
+    left: 20px;
+    overflow: auto;
+}
+
+#four {
+    height: 120px;
+    width: 1600px;
+    border: solid 1px;
+    border-color: rgb(213, 73, 23);
+    margin-bottom: 10px;
+}
+
+#five {
+    height: 40px;
+    width: 1590px;
+    border: solid 1px black;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#seven {
+    height: 100px;
+    width: 1590px;
+    border: solid 1px black;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#nine {
+    height: 100px;
+    width: 1590px;
+    border: solid 1px black;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-left: 20px;
+}
